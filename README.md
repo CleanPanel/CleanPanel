@@ -80,6 +80,8 @@ If CleanPanel is useful to you, donations are welcome and completely voluntary. 
 
 - Wallet address (TRC20): TBpfUztumvm2GQnYLFbL2LXwCXBThDZyVF
 
+The donation address is also shown on the main dashboard of the panel, so it is visible when you open the panel main page.
+
 ## License
 
 CleanPanel is released under the MIT License. See [LICENSE](LICENSE).
