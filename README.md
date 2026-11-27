@@ -78,9 +78,7 @@ See [CHANGELOG.md](CHANGELOG.md).
 
 If CleanPanel is useful to you, donations are welcome and completely voluntary. They help with development and maintenance.
 
-- Wallet address: to be added
-
-The wallet address will be added here when it is available.
+- Wallet address (TRC20): TBpfUztumvm2GQnYLFbL2LXwCXBThDZyVF
 
 ## License
 
