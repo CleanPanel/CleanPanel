@@ -21,6 +21,16 @@ Current version: **v1.0.30**
 - Create an inbound from a link
 - Modern web dashboard with traffic statistics
 
+
+## What's open
+
+The web dashboard UI (`web/`), the installer (`install.sh`), the updater
+(`update.sh`) and the deploy files (`deploy/`) are open for review. The
+core panel binary is closed-source.
+
+See [docs/MOOPROXY.md](docs/MOOPROXY.md) for MooProxy setup and
+[docs/COUNTRIES.md](docs/COUNTRIES.md) for supported countries.
+
 ## Support / Donations
 
 If CleanPanel is useful to you, donations are welcome and completely voluntary. They help with development and maintenance.
