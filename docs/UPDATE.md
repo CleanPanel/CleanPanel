@@ -48,6 +48,10 @@ After updating, open the dashboard and check that the displayed version
 matches the release you installed. If it does not, restart the service once
 more and check again.
 
+Note: the donation wallet address is shown on the panel main dashboard, so
+it is visible on the main page when you open the panel. See the
+"Support / Donations" section in the README for details.
+
 ## Rollback
 
 If the new version does not work, roll back to the previous binary:
