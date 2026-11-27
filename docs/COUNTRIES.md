@@ -13,7 +13,7 @@ See [docs/MOOPROXY.md](MOOPROXY.md) for how to set up MooProxy.
 ## Exits — VPN Gate
 
 Australia (AU), United Kingdom (GB), Hong Kong (HK), Hungary (HU),
-Italy (IT), Japan (JP), South Korea (KR), Russia (RU), Thailand (TH),
+Italy (IT), Japan (JP), South Korea (KR), Thailand (TH),
 Turkey (TR), Ukraine (UA).
 
 ## Telegram proxy
