@@ -16,6 +16,12 @@ Current version: **v1.0.30**
 - Create an inbound from a link
 - Modern web dashboard with traffic statistics
 
+## Support / Donations
+
+If CleanPanel is useful to you, donations are welcome and completely voluntary. They help with development and maintenance.
+
+- Wallet address (TRC20): TBpfUztumvm2GQnYLFbL2LXwCXBThDZyVF
+
 ## Requirements
 
 - Your own server (VPS or dedicated server)
@@ -73,14 +79,6 @@ Open an issue in this repository with the panel version, your operating system, 
 ## Changelog
 
 See [CHANGELOG.md](CHANGELOG.md).
-
-## Support / Donations
-
-If CleanPanel is useful to you, donations are welcome and completely voluntary. They help with development and maintenance.
-
-- Wallet address (TRC20): TBpfUztumvm2GQnYLFbL2LXwCXBThDZyVF
-
-The donation address is also shown on the main dashboard of the panel, so it is visible when you open the panel main page.
 
 ## License
 
