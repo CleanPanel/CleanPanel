@@ -37,14 +37,15 @@ If CleanPanel is useful to you, donations are welcome and completely voluntary. 
 
 ## Install
 
-See [docs/INSTALL.md](docs/INSTALL.md) for step-by-step installation from a release binary.
+One-line install:
 
-Short version:
+```bash
+curl -fsSL https://raw.githubusercontent.com/CleanPanel/CleanPanel/main/install.sh | sudo bash
+```
 
-1. Download the latest release binary from the [Releases](../../releases) page.
-2. Make it executable and place it in the install directory.
-3. Run the panel and open the web dashboard.
-4. Change the default admin credentials on first login.
+See [docs/INSTALL.md](docs/INSTALL.md) for install options (with a domain, custom port) and manual installation.
+
+After install, open the panel URL printed by the installer and choose the admin password on the setup page.
 
 ## Update
 
