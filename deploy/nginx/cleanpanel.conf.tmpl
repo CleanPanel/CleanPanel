@@ -1,0 +1,32 @@
+# CleanPanel — public entry.
+# Only the base path and /sub/ are exposed; everything else is 404.
+server {
+    listen __PANEL_PORT__ ssl;
+    listen [::]:__PANEL_PORT__ ssl;
+    server_name __SERVER_NAME__;
+
+    ssl_certificate /etc/cleanpanel/tls/fullchain.pem;
+    ssl_certificate_key /etc/cleanpanel/tls/privkey.pem;
+    ssl_protocols TLSv1.2 TLSv1.3;
+
+    location / {
+        return 404;
+    }
+
+    location /__BASEPATH__/ {
+        proxy_pass http://127.0.0.1:8891;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-Proto https;
+        proxy_read_timeout 300s;
+        proxy_send_timeout 300s;
+    }
+
+    location /sub/ {
+        proxy_pass http://127.0.0.1:8891;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-Proto https;
+        proxy_read_timeout 60s;
+    }
+}

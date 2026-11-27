@@ -1,0 +1,13 @@
+[Unit]
+Description=CleanPanel sing-box socks bridge (per-tunnel SOCKS)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+ExecStart=/usr/local/bin/sing-box run -c /etc/cleanpanel/singbox.json
+Restart=on-failure
+RestartSec=3
+LimitNOFILE=65535
+
+[Install]
+WantedBy=multi-user.target

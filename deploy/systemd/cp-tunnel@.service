@@ -1,0 +1,12 @@
+[Unit]
+Description=CleanPanel exit tunnel %i
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+ExecStart=/usr/sbin/openvpn --config /etc/cleanpanel/tunnels/%i.ovpn --dev cptun%i --dev-type tun --route-nopull --pull-filter ignore redirect-gateway --pull-filter ignore dhcp-option --script-security 2 --up /etc/cleanpanel/up.sh --auth-user-pass /etc/cleanpanel/vpn_auth.txt --connect-retry 5 30 --ping 10 --ping-restart 60 --verb 2
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
