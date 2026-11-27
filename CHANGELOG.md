@@ -1,5 +1,12 @@
 # Changelog
 
+## v1.0.31
+
+- Added a Psiphon + Proton VPN section: Psiphon tunnel locations (via partner config) and Proton WireGuard exits.
+- Fixed partner-config validation to accept the list form of the server list.
+- Fixed the updater to look for the versioned release asset name first.
+- General stability improvements.
+
 ## v1.0.30
 
 - Added XHTTP/TLS inbound support.
