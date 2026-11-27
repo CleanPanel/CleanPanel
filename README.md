@@ -1,6 +1,6 @@
 # CleanPanel
 
-CleanPanel is a self-hosted server management panel with a web dashboard for managing users, traffic and services on your own server.
+CleanPanel is an all-in-one, self-hosted server management panel with a web dashboard for managing users, traffic and services on your own server.
 
 Current version: **v1.0.30**
 
@@ -8,6 +8,9 @@ Current version: **v1.0.30**
 
 ## Features
 
+- **Multiple locations from one VPS**: clean exits in many countries from a single server
+- **Telegram proxy** with sponsored proxy support
+- **OpenVPN** and **WireGuard** support
 - User management: create, edit, enable, disable and remove users
 - Traffic and quota management per user
 - Time limits and expiry dates per user
