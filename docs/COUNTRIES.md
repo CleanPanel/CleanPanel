@@ -5,8 +5,10 @@ defaults in v1.0.30; they can change in later versions.
 
 ## Exits — MooProxy
 
+MooProxy offers 137 countries. The panel hunts these five by default:
 Germany (DE), France (FR), United Kingdom (GB), Netherlands (NL),
-United States (US).
+United States (US) — any other MooProxy country can be added to the
+hunt list in Settings.
 
 See [docs/MOOPROXY.md](MOOPROXY.md) for how to set up MooProxy.
 
