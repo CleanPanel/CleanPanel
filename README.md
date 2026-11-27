@@ -4,6 +4,8 @@ CleanPanel is a self-hosted server management panel with a web dashboard for man
 
 Current version: **v1.0.30**
 
+📖 [نسخه فارسی](docs/README-fa.md)
+
 ## Features
 
 - User management: create, edit, enable, disable and remove users
@@ -54,7 +56,19 @@ Short version:
 
 ## Screenshots
 
-Screenshots of the panel dashboard are in [docs/screenshots/](docs/screenshots/).
+![Overview dashboard](docs/screenshots/01-overview-desktop-dark.png)
+
+![Inbounds](docs/screenshots/02-inbounds-desktop-dark.png)
+
+![Exits](docs/screenshots/03-exits-desktop-dark.png)
+
+![Users](docs/screenshots/04-users-desktop-dark.png)
+
+![Overview on mobile](docs/screenshots/09-mobile-overview-dark.png)
+
+![Subscription page on mobile](docs/screenshots/12-subscription-page-mobile.png)
+
+More screenshots (settings, command palette, Cloudflare CDN editor, mobile inbounds, English UI) are in [docs/screenshots/](docs/screenshots/). All screenshots use demo data.
 
 ## Security
 
