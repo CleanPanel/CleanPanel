@@ -21,6 +21,7 @@ Current version: **v1.0.30**
 If CleanPanel is useful to you, donations are welcome and completely voluntary. They help with development and maintenance.
 
 - Wallet address (TRC20): TBpfUztumvm2GQnYLFbL2LXwCXBThDZyVF
+- Telegram: [@chicken_amen](https://t.me/chicken_amen)
 
 ## Requirements
 
