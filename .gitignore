@@ -1,0 +1,20 @@
+# Logs
+*.log
+logs/
+
+# Local environment and settings
+.env
+*.env
+config.json
+config.yaml
+config.yml
+
+# Temporary and backup files
+*.tmp
+*.bak
+*.swp
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
